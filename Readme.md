@@ -78,7 +78,3 @@ capabilities: {
   'maxInstances':3 // Number of browser instances to be spun
 },
 ```
-## Todo
-
-1. <del> Update Wiki </del> Done
-2. <del> Add helper methods for common action in BasePage </del> Done
