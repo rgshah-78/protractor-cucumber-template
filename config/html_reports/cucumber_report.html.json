@@ -1,0 +1,99 @@
+[
+  {
+    "description": "    As a user\n    I should be able to perform action on login page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login page",
+    "tags": [],
+    "uri": "/home/ravi/Documents/ProtractorCucumber-template/features/login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Error message should be display for invalid user and password",
+        "tags": [],
+        "id": "login-page;error-message-should-be-display-for-invalid-user-and-password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have opened base url in browser",
+            "result": {
+              "status": "passed",
+              "duration": 6318
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ravi/Documents/ProtractorCucumber-template/stepDefinitions/loginStepDefinitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have opened login page",
+            "result": {
+              "status": "passed",
+              "duration": 3536
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ravi/Documents/ProtractorCucumber-template/stepDefinitions/loginStepDefinitions.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter user as \"wilson@email.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 210
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ravi/Documents/ProtractorCucumber-template/stepDefinitions/loginStepDefinitions.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter password as \"wilson1234567890\"",
+            "result": {
+              "status": "passed",
+              "duration": 2176
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ravi/Documents/ProtractorCucumber-template/stepDefinitions/loginStepDefinitions.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see error message as \"Incorrect IBMid or password. Please try again!\"",
+            "result": {
+              "status": "passed",
+              "duration": 145
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ravi/Documents/ProtractorCucumber-template/stepDefinitions/loginStepDefinitions.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/ravi/Documents/ProtractorCucumber-template/support/hooks.js:5"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "login-page"
+  }
+]

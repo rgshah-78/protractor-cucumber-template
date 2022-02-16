@@ -1,0 +1,21 @@
+{
+   "name": "protractor-cucumber",
+   "version": "0.1.0",
+   "description": "Framework for developing protractor cucumber tests",
+   "dependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "cucumber": "^2.3.0",
+      "cucumber-html-reporter": "^2.0.3",
+      "protractor": "^5.1.2",
+      "protractor-cucumber-framework": "^3.1.0",
+      "protractor-flake": "^3.0.1",
+      "mv": "^2.1.1",
+      "fs-compare": "0.0.4",
+      "request-promise": "^4.2.1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "ravi"
+   }
+}
